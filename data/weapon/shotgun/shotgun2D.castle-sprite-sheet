@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="shotgun2D.png">
+  <SubTexture x="0" y="982" fps="8" name="NewAnim_1" width="128" height="42"/>
+</TextureAtlas>
