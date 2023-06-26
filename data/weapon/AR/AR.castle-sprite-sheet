@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="AR.png">
+  <SubTexture x="0" y="2048" fps="8" name="idle_1" width="512" height="512"/>
+  <SubTexture x="512" y="2048" fps="7" name="shoot_1" width="512" height="512"/>
+  <SubTexture x="1024" y="2048" name="shoot_2" width="512" height="512"/>
+  <SubTexture x="1536" y="2048" name="shoot_3" width="512" height="512"/>
+  <SubTexture x="2048" y="2048" name="shoot_4" width="512" height="512"/>
+  <SubTexture x="0" y="1536" name="shoot_5" width="512" height="512"/>
+  <SubTexture x="512" y="1536" name="shoot_6" width="512" height="512"/>
+  <SubTexture x="1024" y="1536" name="shoot_7" width="512" height="512"/>
+  <SubTexture x="1536" y="1536" name="shoot_8" width="512" height="512"/>
+  <SubTexture x="2048" y="1536" name="shoot_9" width="512" height="512"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rogue.png">
+  <SubTexture x="0" y="768" fps="8" name="idle_1" width="256" height="256"/>
+  <SubTexture x="256" y="768" fps="2" name="attack_1" width="256" height="256"/>
+  <SubTexture x="512" y="768" name="attack_2" width="256" height="256"/>
+  <SubTexture x="768" y="768" name="attack_3" width="256" height="256"/>
+  <SubTexture x="0" y="512" fps="3" name="death_1" width="256" height="256"/>
+  <SubTexture x="256" y="512" name="death_2" width="256" height="256"/>
+  <SubTexture x="512" y="512" name="death_3" width="256" height="256"/>
+  <SubTexture x="768" y="512" name="death_4" width="256" height="256"/>
+  <SubTexture x="0" y="256" name="death_5" width="256" height="256"/>
+</TextureAtlas>

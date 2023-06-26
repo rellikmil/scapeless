@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pipe.png">
+  <SubTexture x="0" y="1536" fps="8" name="idle_1" width="1024" height="512"/>
+  <SubTexture x="1024" y="1536" fps="4" name="attack_1" width="1024" height="512"/>
+  <SubTexture x="0" y="1024" name="attack_2" width="1024" height="512"/>
+  <SubTexture x="1024" y="1024" name="attack_3" width="1024" height="512"/>
+  <SubTexture x="0" y="512" name="attack_4" width="1024" height="512"/>
+  <SubTexture x="1024" y="512" name="attack_5" width="1024" height="512"/>
+  <SubTexture x="0" y="0" name="attack_6" width="1024" height="512"/>
+  <SubTexture x="1024" y="0" name="attack_7" width="1024" height="512"/>
+</TextureAtlas>

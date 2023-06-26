@@ -1,0 +1,216 @@
+{
+  "$$ClassName" : "TCastleUserInterface",
+  "FullSize" : true,
+  "HorizontalAnchorParent" : "hpMiddle",
+  "HorizontalAnchorSelf" : "hpMiddle",
+  "Name" : "NewHud",
+  "VerticalAnchorParent" : "vpMiddle",
+  "VerticalAnchorSelf" : "vpMiddle",
+  "$Children" : [
+    {
+      "$$ClassName" : "TCastleImageControl",
+      "Content" : {
+        "$$ClassName" : "TCastleImagePersistent",
+        "ColorPersistent" : {
+          "$$ClassName" : "TCastleColorPersistent",
+          "Alpha" : 7.5000000000000000E-001,
+          "Blue" : 1.3725490868091583E-001,
+          "Green" : 1.3725490868091583E-001,
+          "Red" : 1.3725490868091583E-001
+        },
+        "ProtectedSides" : {
+          "$$ClassName" : "TBorder",
+          "AllSides" : 1.8000000000000000E+001
+        },
+        "URL" : "castle-data:/hud/Slot_Bg_Only2.png"
+      },
+      "Exists" : false,
+      "Height" : 5.0000000000000000E+001,
+      "HorizontalAnchorParent" : "hpMiddle",
+      "HorizontalAnchorSelf" : "hpMiddle",
+      "Name" : "NotificationBox",
+      "Stretch" : true,
+      "TranslationPersistent" : {
+        "$$ClassName" : "TCastleVector2Persistent",
+        "X" : -5.0000000000000000E+000,
+        "Y" : 9.5000000000000000E+001
+      },
+      "Width" : 5.0000000000000000E+002,
+      "$Children" : [
+        {
+          "$$ClassName" : "TCastleLabel",
+          "Alignment" : "hpMiddle",
+          "AutoSize" : false,
+          "ColorPersistent" : {
+            "$$ClassName" : "TCastleColorPersistent",
+            "Blue" : 8.3137255907058716E-001,
+            "Green" : 8.3137255907058716E-001,
+            "Red" : 8.3137255907058716E-001
+          },
+          "FontSize" : 2.4000000000000000E+001,
+          "Height" : 5.0000000000000000E+001,
+          "HorizontalAnchorParent" : "hpMiddle",
+          "HorizontalAnchorSelf" : "hpMiddle",
+          "Html" : true,
+          "Name" : "Label1",
+          "Text" : [
+            "You killed enemy nr 1234"
+          ],
+          "TranslationPersistent" : {
+            "$$ClassName" : "TCastleVector2Persistent",
+            "Y" : 3.0000000000000000E+000
+          },
+          "VerticalAlignment" : "vpMiddle",
+          "VerticalAnchorParent" : "vpMiddle",
+          "VerticalAnchorSelf" : "vpMiddle",
+          "Width" : 5.0000000000000000E+002
+        }
+      ]
+    },
+    {
+      "$$ClassName" : "TCastleImageControl",
+      "AutoSizeToChildren" : true,
+      "AutoSizeToChildrenPaddingRight" : 1.0000000000000000E+001,
+      "AutoSizeToChildrenPaddingTop" : 1.0000000000000000E+001,
+      "Content" : {
+        "$$ClassName" : "TCastleImagePersistent",
+        "ColorPersistent" : {
+          "$$ClassName" : "TCastleColorPersistent",
+          "Alpha" : 6.0000002384185791E-001,
+          "Blue" : 1.3725490868091583E-001,
+          "Green" : 1.3725490868091583E-001,
+          "Red" : 1.3725490868091583E-001
+        },
+        "ProtectedSides" : {
+          "$$ClassName" : "TBorder",
+          "AllSides" : 1.8000000000000000E+001
+        },
+        "URL" : "castle-data:/hud/Slot_Bg_Only2.png"
+      },
+      "Height" : 5.0000000000000000E+001,
+      "Name" : "NotificationBox1",
+      "Stretch" : true,
+      "TranslationPersistent" : {
+        "$$ClassName" : "TCastleVector2Persistent",
+        "X" : 2.0000000000000000E+001,
+        "Y" : -1.0000000000000000E+001
+      },
+      "VerticalAnchorParent" : "vpTop",
+      "VerticalAnchorSelf" : "vpTop",
+      "Width" : 1.1000000000000000E+002,
+      "$Children" : [
+        {
+          "$$ClassName" : "TCastleLabel",
+          "ColorPersistent" : {
+            "$$ClassName" : "TCastleColorPersistent",
+            "Blue" : 1.0000000000000000E+000,
+            "Green" : 1.0000000000000000E+000,
+            "Red" : 1.0000000000000000E+000
+          },
+          "Name" : "LabelFps",
+          "Text" : [
+            "FPS: xxx"
+          ],
+          "TranslationPersistent" : {
+            "$$ClassName" : "TCastleVector2Persistent",
+            "X" : 9.9999961853027344E+000,
+            "Y" : 1.4000008583068848E+001
+          }
+        }
+      ]
+    },
+    {
+      "$$ClassName" : "TCastleViewport",
+      "Border" : {
+        "$$ClassName" : "TBorder",
+        "AllSides" : 2.0000000000000000E+000
+      },
+      "BorderColorPersistent" : {
+        "$$ClassName" : "TCastleColorPersistent",
+        "Alpha" : 1.0000000000000000E+000
+      },
+      "Height" : 2.7000000000000000E+002,
+      "HorizontalAnchorParent" : "hpRight",
+      "HorizontalAnchorSelf" : "hpRight",
+      "Items" : {
+        "$$ClassName" : "TCastleRootTransform",
+        "PhysicsProperties" : {
+          "$$ClassName" : "TPhysicsProperties"
+        }
+      },
+      "Name" : "MapViewport",
+      "TranslationPersistent" : {
+        "$$ClassName" : "TCastleVector2Persistent",
+        "X" : -2.0000000000000000E+001,
+        "Y" : -2.8278613281250000E+002
+      },
+      "VerticalAnchorParent" : "vpTop",
+      "VerticalAnchorSelf" : "vpTop",
+      "Width" : 2.8000000000000000E+002,
+      "$Children" : [
+        {
+          "$$ClassName" : "TCastleExamineNavigation",
+          "MoveEnabled" : false,
+          "Name" : "MapExamineNavigation",
+          "RotationEnabled" : false
+        },
+        {
+          "$$ClassName" : "TCastleImageControl",
+          "Content" : {
+            "$$ClassName" : "TCastleImagePersistent",
+            "URL" : "castle-data:/hud/player_arrow.png"
+          },
+          "Height" : 2.5000000000000000E+001,
+          "HorizontalAnchorParent" : "hpMiddle",
+          "HorizontalAnchorSelf" : "hpMiddle",
+          "Name" : "PlayerArrow",
+          "Stretch" : true,
+          "VerticalAnchorParent" : "vpMiddle",
+          "VerticalAnchorSelf" : "vpMiddle",
+          "Width" : 2.5000000000000000E+001
+        }
+      ],
+      "InternalDesignCamera" : {
+        "$$ClassName" : "TCastleCamera",
+        "Name" : "",
+        "Orthographic" : {
+          "$$ClassName" : "TCastleOrthographic"
+        },
+        "Perspective" : {
+          "$$ClassName" : "TCastlePerspective"
+        },
+        "RotationPersistent" : {
+          "$$ClassName" : "TCastleVector4RotationPersistent",
+          "Z" : 1.0000000000000000E+000
+        }
+      },
+      "InternalDesignNavigations[dnFly]" : {
+        "$$ClassName" : "TCastleWalkNavigationDesign",
+        "Name" : ""
+      },
+      "InternalDesignNavigations[dnExamine]" : {
+        "$$ClassName" : "TCastleExamineNavigationDesign",
+        "Exists" : false,
+        "Name" : ""
+      },
+      "InternalDesignNavigations[dn2D]" : {
+        "$$ClassName" : "TCastle2DNavigationDesign",
+        "Exists" : false,
+        "Name" : ""
+      }
+    },
+    {
+      "$$ClassName" : "TCastleNotifications",
+      "Height" : 1.0000000000000000E+001,
+      "HorizontalAnchorParent" : "hpMiddle",
+      "HorizontalAnchorSelf" : "hpMiddle",
+      "Name" : "MainNotifications",
+      "TextAlignment" : "hpMiddle",
+      "TranslationPersistent" : {
+        "$$ClassName" : "TCastleVector2Persistent",
+        "Y" : 1.0000000000000000E+001
+      },
+      "Width" : 3.0000000000000000E+002
+    }
+  ]
+}
