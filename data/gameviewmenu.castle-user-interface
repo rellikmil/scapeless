@@ -8,6 +8,11 @@
       "LoadCharacters" : "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя",
       "Name" : "Font1",
       "URL" : "castle-data:/hud/Greybeard-15px.ttf"
+    },
+    {
+      "$$ClassName" : "TCastleSound",
+      "Name" : "MenuTheme",
+      "URL" : "castle-data:/audio/DRD.ogg"
     }
   ],
   "$Children" : [
@@ -97,7 +102,7 @@
               "PaddingVertical" : 3.0000000000000000E+001,
               "TranslationPersistent" : {
                 "$$ClassName" : "TCastleVector2Persistent",
-                "Y" : -1.1800000000000000E+002
+                "Y" : -1.1399999237060547E+002
               },
               "VerticalAnchorParent" : "vpTop",
               "VerticalAnchorSelf" : "vpTop"
