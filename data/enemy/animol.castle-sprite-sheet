@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="animol.png">
-  <SubTexture x="0" y="768" fps="3" name="idle_1" width="256" height="256"/>
-  <SubTexture x="256" y="768" fps="3" name="shoot_1" width="256" height="256"/>
-  <SubTexture x="512" y="768" name="shoot_2" width="256" height="256"/>
-  <SubTexture x="768" y="768" fps="3" name="die_1" width="256" height="256"/>
-  <SubTexture x="0" y="512" name="die_2" width="256" height="256"/>
-  <SubTexture x="256" y="512" name="die_3" width="256" height="256"/>
-</TextureAtlas>
